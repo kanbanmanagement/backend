@@ -1,0 +1,25 @@
+{
+    "name": "kanbanmanagement/backend",
+    "description": "Project management web application",
+    "require": {
+        "slim/slim": "^2.6",
+        "devstackgroup/cbase": "dev-master",
+        "devstackgroup/jwt": "dev-master",
+        "devstackgroup/slimapi": "dev-master",
+        "mailgun/mailgun-php": "^1.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrzej Kostrzewa",
+            "email": "andkos11@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Slimvc\\": "src",
+            "Kanban\\": "app"
+        }
+    }
+}
