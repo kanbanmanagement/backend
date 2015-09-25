@@ -39,6 +39,7 @@ class Validator
                 switch ($ruleName) {
                     case 'name':
                         $fieldName = $ruleValue;
+                        break;
                     case 'required':
                         if ($ruleValue === true && strlen($this->data[$field]) == 0) {
                             $this->errors[] = 'Pole ' . $fieldName . " jest wymagane.";
