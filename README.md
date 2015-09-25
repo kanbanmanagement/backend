@@ -11,7 +11,7 @@ $ composer install
 
 ## Api Request
 
-#### LoginController
+#### Login
 
 ```
 http://kanban.dev/login        - METHOD GET
@@ -23,7 +23,7 @@ http://kanban.dev/login/verify - METHOD POST; FORMAT JSON; PARAM name, pass
 http://kanban.dev/login/forgot - METHOD POST; FORMAT JSON; PARAM email
 ```
 
-#### RegisterController
+#### Register
 
 ```
 http://kanban.dev/register        - METHOD GET
